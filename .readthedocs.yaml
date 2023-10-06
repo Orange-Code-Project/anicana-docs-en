@@ -9,6 +9,13 @@ version: 2
 formats:
   - pdf
 
+python:
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - sphinx-rtd-theme
+
 # Set the OS, Python version and other tools you might need
 build:
   os: ubuntu-22.04
