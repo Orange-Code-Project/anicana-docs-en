@@ -11,10 +11,7 @@ formats:
 
 python:
   install:
-    - method: pip
-      path: .
-      extra_requirements:
-        - sphinx-rtd-theme
+    - requirements: requirements.txt
 
 # Set the OS, Python version and other tools you might need
 build:
