@@ -6,7 +6,7 @@ Consortium-Based Private Chain
 =====================================
 
 ANICANA is a Quorum-based private chain, on which Validators constitute a decentralized network. 
-It enables various token issuance and transactions related to GameFi, and smart contracts for token transfers adhere to standards like ERC-1155, ERC-721, ERC-20, and more. An overview of the main use cases is as follows:
+Various token issues based on people's experiences, and smart contracts for token transfers adhere to standards like ERC-1155, ERC-721, ERC-20, and more. An overview of the main use cases is as follows:
 
 ----------------------------------------------
 1. Become a Network Validator
