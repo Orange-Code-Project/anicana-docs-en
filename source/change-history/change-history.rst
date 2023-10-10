@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "8.", "2023/10/10", "1.1.4", "| Wallet Connection
+    | 　⇒ Add parameter
+    | 　"
     "7.", "2023/08/21", "1.1.3", "| Production Environment Information
     | Ark.one Testnet Environment Information
     | Implementation of DrawChain

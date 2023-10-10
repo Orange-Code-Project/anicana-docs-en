@@ -22,12 +22,14 @@ Sample Generation Script::
     :align: center
 
     Parameter, required/optional, Type, Description
-    id,             required, String,  anikana_login_script (Do not change)
-    src,            required, URL,     {endpoint}/login.js (Refer to the endpoint in the environment information page)
-    data-call-id,   required, Number,  "A unique number for each publisher. This is used on the content side to determine where the user is returning from, among other functions. If this information is not specifically needed, 9999999 can be used."
-    data-sign-text, optional, String,  Text to be signed (one-time token)
-    data-callback,  required, URL,     "Callback URL. After logging in, callId, sign, and address (user's wallet address) will be added as GET parameters and redirected."
-    data-logout,    optional, Boolean, "If true, it forces a re-login. If false, it automatically logs in if there is session information, and forces a re-login if there isn't. If not specified, it is treated as false."
+    id,                 required, String,  anikana_login_script (Do not change)
+    src,                required, URL,     {endpoint}/login.js (Refer to the endpoint in the environment information page)
+    data-call-id,       required, Number,  "A unique number for each publisher. This is used on the content side to determine where the user is returning from, among other functions. If this information is not specifically needed, 9999999 can be used."
+    data-sign-text,     optional, String,  Text to be signed (one-time token)
+    data-callback,      required, URL,     "Callback URL. After logging in, callId, sign, and address (user's wallet address) will be added as GET parameters and redirected."
+    data-logout,        optional, Boolean, "If true, it forces a re-login. If false, it automatically logs in if there is session information, and forces a re-login if there isn't. If not specified, it is treated as false."
+    data-referral-code, optional, String,  Set the referral code passed from the affiliate.
+
 
 | - data-sign-text
 |   This can be configured for advanced security implementation.
