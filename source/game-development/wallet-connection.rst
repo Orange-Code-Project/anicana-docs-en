@@ -16,6 +16,7 @@ Sample Generation Script::
     <script src="https://staging.anicana.org/login.js" id="anikana_login_script" data-call-id="9999999" data-sign-text="HELLO"  data-callback="https://staging.anicana.org/test_login.html" data-logout="true" ></script>
     <div style='text-align: center'><button class='' onclick='__open_portal_login()'>Login</button></div>
 
+- Omit unnecessary optional parameters along with the key of the parameter.
 
 .. csv-table::
     :header-rows: 1
@@ -28,7 +29,7 @@ Sample Generation Script::
     data-sign-text,     optional, String,  Text to be signed (one-time token)
     data-callback,      required, URL,     "Callback URL. After logging in, callId, sign, and address (user's wallet address) will be added as GET parameters and redirected."
     data-logout,        optional, Boolean, "If true, it forces a re-login. If false, it automatically logs in if there is session information, and forces a re-login if there isn't. If not specified, it is treated as false."
-    data-referral-code, optional, String,  Set the referral code passed from the affiliate.
+    data-referral-code, optional, String,  Set the referral code passed from the affiliate.Fixed at 64 alphanumeric characters.
 
 
 | - data-sign-text

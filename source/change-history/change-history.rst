@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "9.", "2023/10/25", "1.1.5", "| Wallet Connection
+    | 　⇒Add supplement
+    | 　"
     "8.", "2023/10/10", "1.1.4", "| Wallet Connection
     | 　⇒ Add parameter
     | 　"
