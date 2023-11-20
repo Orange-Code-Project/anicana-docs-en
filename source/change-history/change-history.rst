@@ -7,6 +7,10 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "10.", "2023/11/20", "1.1.6", "| Production Environment Information
+    | Ark.one Testnet Environment Information
+    | 　⇒Added Square abi
+    | 　"
     "9.", "2023/10/25", "1.1.5", "| Wallet Connection
     | 　⇒Add supplement
     | 　"
