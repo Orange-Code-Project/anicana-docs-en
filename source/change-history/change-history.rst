@@ -7,6 +7,11 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "11.", "2023/12/11", "1.1.7", "| ARCANA Generation API
+    | ⇒Adding supplementary information for manaInfo
+    | Uploading to IPFS
+    | ⇒Added limitation of images that can be uploaded
+    | 　"
     "10.", "2023/11/20", "1.1.6", "| Production Environment Information
     | Ark.one Testnet Environment Information
     | 　⇒Added Square abi

@@ -49,9 +49,11 @@ To directly call the generation page, do as follows::
     {endpoint}/arcana-gen/{manaAddress}
 
 
-.. admonition:: If Not Specified
+.. admonition:: supplement
 
-  When calling the generation page directly and not specifying symbol, manaInfo, and manaValue, please insert null in the respective locations.
+  - When calling the generation page directly and not specifying symbol, manaInfo, and manaValue, please insert null in the respective locations.
+  - The maximum number of "manaInfo" characters is limited to the total of all request headers. Although there are some conflicts with other parameters, the maximum number of characters for symbol, manaInfo, and manaValue together should be 800 or less for Japanese and 7200 or less for single-byte alphanumeric characters.
+  - The text to be displayed in the mana information is currently not line breakable.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -137,7 +139,7 @@ The process for ARCANA generation follows a flow similar to the following:
 In the staging environment, you can perform the following steps:
 
 1. Register with an email address in the Validator Management Interface. A wallet will be created.
-2. Obtain the private key of the issued wallet address using a dedicated site. Use the private key displayed with "0x" added at the beginning for creating the signature.
+2. The privatekey is obtained by using the privatekey of the walletaddress issued above. privatekey can be checked from the console of the development tools in the browser by logging in to the Validator UI as the target user. Use the private key displayed with "0x" added at the beginning for creating the signature.
 3. EGGs in the staging environment are issued by administrative authority, not by generating them from the Validator UI.
 4. Set the issued EGG's ID in the eggid parameter. You can check the EGGs you own in the Validator Management Interface.
 
