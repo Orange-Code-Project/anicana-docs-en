@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "12.", "2023/12/20", "1.1.8", "| Generating and Distributing PERSONA
+    | ⇒Add attribute value assignments
+    | 　"
     "11.", "2023/12/11", "1.1.7", "| ARCANA Generation API
     | ⇒Adding supplementary information for manaInfo
     | Uploading to IPFS
