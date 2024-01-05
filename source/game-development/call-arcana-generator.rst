@@ -27,5 +27,5 @@ ARCANA Generation on the Testnet
 ARCANA generation on the testnet can be performed using the following steps:
 
 1. Register on the Validator management page with an email address and create a wallet.
-2. Obtain the private key of the wallet address generated in the previous step. Use this private key to create a signature. You can obtain the private key using a dedicated website.
+2. Obtain the private key of the wallet address generated in the previous step. Use this private key to create a signature. The privatekey can be checked from the console of the browser's development tools by logging in to the Validator management page as the target user.
 3. In the testnet environment, EGGs are not generated from the Validator management page but are issued by the technical support team with administrative privileges.

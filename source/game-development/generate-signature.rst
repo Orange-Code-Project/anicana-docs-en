@@ -2,7 +2,7 @@
 Signature Generation Procedure
 #######################################
 
-In order to generate an ARCANA token, the Validator (on the content side) needs to allow the user to convert their EGG token into ARCANA. Additionally, during this process, it is necessary to embed the result value of the content into the ARCANA token without tampering with this value. To achieve this, the following procedure is performed: the content side creates a signature, and the user uses this signature to send a transaction. The private key of the EGG ID owner can be obtained from a dedicated website.
+In order to generate an ARCANA token, the Validator (on the content side) needs to allow the user to convert their EGG token into ARCANA. Additionally, during this process, it is necessary to embed the result value of the content into the ARCANA token without tampering with this value. To achieve this, the following procedure is performed: the content side creates a signature, and the user uses this signature to send a transaction. The private key of the eggid owner can be checked from the console of the development tools in the browser by logging in to the Validator UI as the target user.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

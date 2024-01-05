@@ -22,6 +22,14 @@ The Validator Management Interface is mainly used for EGG generation.
     "Generating EGGs", "Refer to :doc:`Generating EGGs </egg-management/generate-eggs>`."
 
 
+Obtaining a Private Key
+============================================
+| You can check the Private Key of the logged-in user.
+| Press F12 to display the browser's development tools. Confirm the private key displayed in the console.
+
+   ... figure:: ... /img/ValidatorUI/ValidatorUI-10.png
+
+
 Additional details for each screen are provided below.
 
 DASHBOARD

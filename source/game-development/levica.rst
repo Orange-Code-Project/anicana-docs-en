@@ -154,11 +154,16 @@ Listed below are the main APIs used to implement LEVICA Payment.
 |                       +---------------+------------+--------------+----------------------------------------------------------+
 |                       | type          |  byte      | Yes          | | 1 : Generate QR Code                                   |
 |                       |               |            |              | | 2 : Generate deep link URLs                            |
+|                       +---------------+------------+--------------+----------------------------------------------------------+
+|                       | refarralCode  |  String    | No           | | Set the referral code passed from the affiliate        |
+|                       |               |            |              | | Fixed 64 alphanumeric characters                       |
 +-----------------------+---------------+------------+--------------+----------------------------------------------------------+
 |  Sample request body  | | {                                                                                                  |
 |                       | |  "amount": 10000,                                                                                  |
 |                       | |  "isLock": 1,                                                                                      |
 |                       | |  "type": 1                                                                                         |
+|                       | |  "type": 1,                                                                                        |
+|                       | |  "refarralCode": "123456789101234567891234567890ASDFGHJKLZXCVBNMASDFGHJKASDFGHJKAS"                |
 |                       | | }                                                                                                  |
 +-----------------------+------------------------------------------------------------------------------------------------------+
 | Response                                                                                                                     |

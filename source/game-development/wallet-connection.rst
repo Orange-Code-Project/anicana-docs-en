@@ -31,6 +31,16 @@ Sample Generation Script::
     data-logout,        optional, Boolean, "If true, it forces a re-login. If false, it automatically logs in if there is session information, and forces a re-login if there isn't. If not specified, it is treated as false."
     data-referral-code, optional, String,  Set the referral code passed from the affiliate.Fixed at 64 alphanumeric characters.
 
+- Sample of direct URL generation
+
+Direct URL generation::
+
+        {endpoint}/login/idms/{:call-id}/{sign-text}?r={callback}&logout={logout}
+
+Direct URL generation (with referral-code)::
+
+        {endpoint}/login/idms/{:call-id}/{sign-text}?r={callback}&logout={logout}&referral_code=XXXXX
+
 
 | - data-sign-text
 |   This can be configured for advanced security implementation.

@@ -7,6 +7,17 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "13.", "2024/01/05", "1.2.0","| Added the following pages
+    | 　Quick Start for Publishers
+    | 　Affiliate functionality
+    | Validator Management Interface
+    | ARCANA Generation Process
+    | ARCANA Generation API
+    | 　⇒ Modified/added explanation of Private Key acquisition
+    | LEVICA Payment
+    | Wallet Connection
+    | 　⇒Added setting of referral-code
+    | 　"
     "12.", "2023/12/20", "1.1.8", "| Generating and Distributing PERSONA
     | ⇒Add attribute value assignments
     | 　"
