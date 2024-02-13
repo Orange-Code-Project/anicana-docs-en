@@ -7,6 +7,16 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "14.", "2024/02/13", "1.3.0", "|Added the following pages
+    | 　・Boloodline
+    | Corrected the wording on the following page (Player ⇒ Consumer)
+    | 　・Advanced Security Settings for Wallet Connection
+    | 　・PERSONA Overview
+    | 　・ANICANA life cycle
+    | 　・ARCANA Generation Process
+    | 　・Implementation of DrawChain
+    | 　・Absorbing
+    | 　"
     "13.", "2024/01/05", "1.2.0","| Added the following pages
     | 　Quick Start for Publishers
     | 　Affiliate functionality

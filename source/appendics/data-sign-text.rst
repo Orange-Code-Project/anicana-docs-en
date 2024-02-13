@@ -7,7 +7,7 @@ Through the ANICANA Wallet Server, it is possible to obtain a user's address fro
 .. image:: ../img/wallet_connection.png
 
 
-| Player: User of the content
+| Consumer: User of the content
 | Frontend: Content's frontend
 | Backend: Content's backend
 | Wallet: ANICANA Wallet Server

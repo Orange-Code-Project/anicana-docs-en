@@ -3,7 +3,7 @@ PERSONA Overview
 ###########################
 
 | PERSONA is an NFT that plays the role of a catalyst to trigger specific smart contracts on ANICANA. The smart contracts are ERC721 compliant.
-| They are primarily created by publishers and offered to players (content users).
+| They are primarily created by publishers and offered to Consumer (content users).
 | The methods of offering may vary, including paid options and rewards in events.
 | The generation of PERSONA requires both SQUARE and ANIMA.
 | PERSONA has internal values, and Validators can set these internal values when generating PERSONA.
@@ -19,7 +19,7 @@ PERSONA Growth / Object Absorption Contract
 | 
 | PERSONAs with high FORCE internal values primarily target ARCANAs with low FORCE values. 
 | When a low-FORCE PERSONAs absorb a high-FORCE ARCANAs, there is a higher probability that the internal values of the absorbing PERSONAs will deteriorate.
-| Players can enjoy the changes resulting from object absorption, and they can also utilize PERSONAs for collecting or selling high-ability PERSONAs on secondary marketplaces.
+| Consumer can enjoy the changes resulting from object absorption, and they can also utilize PERSONAs for collecting or selling high-ability PERSONAs on secondary marketplaces.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
