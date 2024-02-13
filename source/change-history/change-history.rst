@@ -7,7 +7,7 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
-    "14.", "2024/02/13", "1.3.0", "|Added the following pages
+    "14.", "2024/02/13", "1.3.0", "| Added the following pages
     | 　・Boloodline
     | Corrected the wording on the following page (Player ⇒ Consumer)
     | 　・Advanced Security Settings for Wallet Connection
