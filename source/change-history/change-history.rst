@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "15.", "2024/02/25", "1.3.1", "| Ark.one Testnet Environment Information
+    | 　⇒Added Boloodline  contract addresses and abi
+    | 　"
     "14.", "2024/02/13", "1.3.0", "| Added the following pages
     | 　・Boloodline
     | Corrected the wording on the following page (Player ⇒ Consumer)
