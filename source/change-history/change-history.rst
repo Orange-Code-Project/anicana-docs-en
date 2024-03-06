@@ -7,6 +7,11 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "16.", "2024/03/06", "1.4.0", "| Release information for each platform feature
+    | ⇒ Add each page
+    | Change History
+    | ⇒ Moved to the bottom of the menu
+    | "
     "15.", "2024/02/25", "1.3.1", "| Ark.one Testnet Environment Information
     | 　⇒Added Boloodline  contract addresses and abi
     | 　"

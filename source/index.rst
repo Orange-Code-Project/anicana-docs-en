@@ -8,9 +8,23 @@ ANICANA Technical Documents
 
 .. toctree::
    :maxdepth: 2
-   :caption: Update History:
+   :caption: Release information for each platform function:
 
-   /change-history/change-history
+   /release/updated-info
+   /release/levica-app-main
+   /release/levica-app-test
+   /release/levica-backend-main
+   /release/levica-backend-test
+   /release/arcana-generator-main
+   /release/arcana-generator-test
+   /release/levias-id-main
+   /release/levias-id-test
+   /release/octillion-main
+   /release/octillion-test
+   /release/api-server-main
+   /release/api-server-test
+   /release/adsquare-main
+   /release/adsquare-test
 
 .. toctree::
    :maxdepth: 2
@@ -100,3 +114,9 @@ ANICANA Technical Documents
    :caption: Appendices
 
    /appendics/data-sign-text
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Update History:
+
+   /change-history/change-history
