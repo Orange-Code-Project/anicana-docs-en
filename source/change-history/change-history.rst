@@ -7,7 +7,7 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
-    "18.", "2024/03/13", "1.4.2", "| LEVICA-app（Ark.one）
+    "18.", "2024/03/13", "1.4.2", "| LEVICA-backend（Ark.one）
     | ⇒Updated release schedule
     | 　"
     "17.", "2024/03/10", "1.4.1","| Release information for each platform function
