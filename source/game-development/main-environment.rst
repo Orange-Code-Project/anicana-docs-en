@@ -133,7 +133,7 @@ ARCANA Generation Page Invocation Script
     :align: center
 
     "Environment", "API Endpoint (base_url)"
-    "Production Environment","https://anicana.org/"
+    "Production","https://anicana.org/"
 
 ------------------------------------------------------------------------------------------
 
@@ -146,7 +146,7 @@ check status
     :align: center
 
     "Environment", "API Endpoint"
-    "Production Environment","https://api.anicana.org/"
+    "Production","https://api.anicana.org/"
 
 ------------------------------------------------------------------------------------------
 
@@ -159,7 +159,7 @@ Login Script
     :align: center
 
     "Environment", "API Endpoint (base_url)"
-    "Production Environment","https://anicana.org/"
+    "Production","https://anicana.org/"
 
 -------------------------------------------------------------------
 

@@ -1,11 +1,11 @@
 ##########################################
-Ark.one Testnet Environment Information
+Ark.one Environment Information
 ##########################################
 
-Ark.one Testnet Environment List
+Ark.one Environment List
 
 .. caution::
-    | Ark.one Testnet is a community-provided testnet.
+    | Ark.one is a community-provided testnet.
     | Due to its testing nature, transactions issued within the testnet are not guaranteed.
     | Please refrain from actions involving real money within the testnet.
 
@@ -140,7 +140,7 @@ Call ARCANA Generation Page Script
     :align: center
 
     "Environment", "API Endpoint (base_url)"
-    "Testnet Endpoint","https://staging.anicana.org/"
+    "Testnet","https://staging.anicana.org/"
 
 ------------------------------------------------------------------------------------------
 
@@ -153,7 +153,7 @@ Check Status
     :align: center
 
     "Environment", "API Endpoint"
-    "Testnet Endpoint","https://api-staging.anicana.org/"
+    "Testnet","https://api-staging.anicana.org/"
 
 ------------------------------------------------------------------------------------------
 
@@ -166,7 +166,7 @@ Login Script
     :align: center
 
     "Environment", "API Endpoint (base_url)"
-    "Testnet Endpoint","https://staging.anicana.org/"
+    "Testnet","https://staging.anicana.org/"
 
 -------------------------------------------------------------------
 

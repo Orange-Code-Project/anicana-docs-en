@@ -1,5 +1,5 @@
 ##########################################
-Arcana Generator（Production）
+ARCANA Generation API（Production）
 ##########################################
 
 release information
@@ -10,4 +10,4 @@ release information
     :align: center
 
     "No", "Version", "Release Date", "Release Notes"
-    ".", "", "", ""
+    "1.", "1.28.6", "", "Latest version as of 2024/03/15"
