@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "20.", "2024/03/24", "1.4.3", "| Ark.one Environment Information
+    | ⇒ URL of LEVICA merchant management screen
+    | 　"
     "19.", "2024/03/16", "1.4.3", "| Uniformity of wording
     | LEVICA API (Production)
     | ⇒Updated release schedule

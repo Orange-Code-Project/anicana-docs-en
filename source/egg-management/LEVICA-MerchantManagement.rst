@@ -1,5 +1,5 @@
 #####################################################
-LEVICA Affiliate Store Management Screen
+LEVICA Merchant Management Screen
 #####################################################
 
 A screen where users can view payment histories for affiliate stores and payment information from LEVICA to affiliate stores.
