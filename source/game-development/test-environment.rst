@@ -179,7 +179,6 @@ LEVICA
     :align: center
 
     "Environment", "API Endpoint (base_url),URL"
-    "Development", "http://levicapachinko-dev-apialb-1787872278.ap-northeast-1.elb.amazonaws.com"
     "Staging", "http://levica-stg-apialb-1782828167.ap-northeast-1.elb.amazonaws.com"
     "Merchant Management Screen", "http://stg.store.levica.io/login"
 

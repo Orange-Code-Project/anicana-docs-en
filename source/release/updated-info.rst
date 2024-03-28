@@ -11,7 +11,7 @@ Please see each page for details of the release.
     "No", "Date Updated", "Contents"
     "1.", "", ":doc:`LEVICA-app（Production） </release/levica-app-main>` "
     "2.", "", ":doc:`LEVICA-app（Ark.one） </release/levica-app-test>` "
-    "3.", "2024/03/16", ":doc:`LEVICA API（Production） </release/levica-backend-main>` "
+    "3.", "2024/03/28", ":doc:`LEVICA API（Production） </release/levica-backend-main>` "
     "4.", "2024/03/13", ":doc:`LEVICA API（Ark.one） </release/levica-backend-test>` "
     "5.", "", ":doc:`ARCANA Generation API（Production） </release/arcana-generator-main>` "
     "6.", "", ":doc:`ARCANA Generation API（Ark.one） </release/arcana-generator-test>` "
