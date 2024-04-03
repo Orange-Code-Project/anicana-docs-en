@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "21.", "2024/04/03", "1.4.6","| LEVICA API (Production)
+    | ⇒ Update scheduled release date
+    | 　"
     "21.", "2024/03/28", "1.4.5","| Ark.one environment information
     | ⇒ Delete unnecessary environment information
     | LEVICA API (Production)

@@ -10,7 +10,7 @@ release information
     :align: center
 
     "No", "Version", "Release Date", "Release Notes"
-    "2.", "1.3.0", "2024/04/04 (planned)", "| <New Feature>
+    "2.", "1.3.0", "2024/04/08 (planned)", "| <New Feature>
     | LEVICA merchant management screen will be released.
     | User payment history for merchants and payment information from LEVICA to merchants can be viewed.
     | Also, a portion of the user payment is not reimbursed by bank transfer,
