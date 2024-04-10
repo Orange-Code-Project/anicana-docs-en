@@ -7,6 +7,11 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "23.", "2024/04/10", "1.4.7", "| Production Environment Information
+    | 　⇒Added Boloodline  contract addresses and abi
+    | Bloodline
+    | ⇒ Update the list of Bloodline
+    | 　"
     "21.", "2024/04/03", "1.4.6","| LEVICA API (Production)
     | ⇒ Update scheduled release date
     | 　"
