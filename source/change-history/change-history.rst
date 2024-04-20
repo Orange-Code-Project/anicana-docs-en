@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "24.", "2024/04/21", "1.4.8", "| Bloodline
+    | ⇒ Update the list of Bloodline
+    | 　"
     "23.", "2024/04/10", "1.4.7", "| Production Environment Information
     | 　⇒Added Boloodline  contract addresses and abi
     | Bloodline
