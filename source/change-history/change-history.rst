@@ -7,6 +7,10 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "25.", "2024/04/26", "1.5.0","| tenebrae overview
+    | tenebrae Implementation
+    | ⇒ Create page
+    | 　"
     "24.", "2024/04/21", "1.4.8", "| Bloodline
     | ⇒ Update the list of Bloodline
     | 　"
