@@ -10,6 +10,10 @@ release information
     :align: center
 
     "No", "Version", "Release Date", "Release Notes"
+    "3.", "1.3.1", "2024/05/01","| <New Feature>
+    | Create an API to reuse all past payments.
+    | Re-enable the API, all past payments for that merchant will be treated as reused, and the levica for all payments will be sent to the specified wallet address.
+    | Create an API to reuse all past payments made by the merchant."
     "2.", "1.3.0", "2024/03/18", "| <New Feature>
     | LEVICA merchant management screen will be released.
     | User payment history for merchants and payment information from LEVICA to merchants can be viewed.
