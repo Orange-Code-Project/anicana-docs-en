@@ -10,6 +10,10 @@ release information
     :align: center
 
     "No", "Version", "Release Date", "Release Notes"
+    "4.", "1.3.3", "2024/06/27 (planned)", "
+    | Fixed a problem with stripe causing double payment.
+    | Heavy areas, added logs for investigation.
+    | "
     "3.", "1.3.1", "2024/05/01","| <New Feature>
     | Create an API to reuse all past payments.
     | Re-enable the API, all past payments for that merchant will be treated as reused, and the levica for all payments will be sent to the specified wallet address.

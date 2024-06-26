@@ -7,6 +7,10 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "27.", "2024/06/26", "1.5.2", "| LEVICA API (Production)
+    | LEVICA API (Ark.one)
+    | ⇒ Update of the release contents
+    | "
     "26.", "2024/05/01", "1.5.1", "| LEVICA API (Production)
     | LEVICA API (Ark.one)
     | LEVIAS ID (Production)
