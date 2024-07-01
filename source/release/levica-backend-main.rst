@@ -10,7 +10,7 @@ release information
     :align: center
 
     "No", "Version", "Release Date", "Release Notes"
-    "4.", "1.3.3", "2024/06/27 (planned)", "
+    "4.", "1.3.3", "2024/06/27", "
     | Fixed a problem with stripe causing double payment.
     | Heavy areas, added logs for investigation.
     | "
