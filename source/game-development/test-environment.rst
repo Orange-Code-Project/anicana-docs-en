@@ -102,6 +102,7 @@ Interfaces
     Interface, Download
     IDrawChainAuthorizer, :download:`IDrawChainAuthorizer.sol<../file_ark1/if/IDrawChainAuthorizer.sol>`
     IAbsorbApprover,      :download:`IAbsorbApprover.sol<../file_ark1/if/IAbsorbApprover.sol>`
+	IDrawChainPostProcessor, :download:`IDrawChainPostProcessor.sol<../file_ark1/if/IDrawChainPostProcessor.sol>`
 
 -------------------------------------------------------------------
 

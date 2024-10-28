@@ -14,6 +14,7 @@ Setting Up DrawChain
 
 | You can configure the conditions for running DrawChain.
 | Configuration is possible by registering a contract that inherits the IDrawChainAuthorizer interface.
+| Also, by registering a contract that inherits the IDrawChainPostProcessor interface, you can configure the behavior after Draw.
 
 ■ Functions for Publishers
 
@@ -61,6 +62,45 @@ Function to set the active and inactive states of DrawChain (Drawchain.sol):
         @param drawChainId DrawChain ID
         @param active true: draw is possible, false: draw is not possible
         function deactivateDrawChain(uint256 drawChainId, bool active) public;
+
+
+3. Create a Contract to Define the Behavior after Executing DrawChain
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create a contract that implements the IDrawChainPostProcessor interface(IDrawChainPostProcessor.sol)::
+
+        @notice Executes post-processing after a successful Draw.
+        @param drawChainId DrawChain ID
+        @param personaId Persona ID
+        @param personaOwner The owner of the Persona at the time of successful Draw
+        @param processorData DrawChain.attach()時に指定するコントラクト特有のデータ
+        @return true: Prize distribution is complete (records the distribution date), false: No prize distribution took place
+        function process(uint256 drawChainId,uint256 personaId,address personaOwner,uint256 processorData) external returns(bool);
+
+| Interface files refer to the environmental information.
+| If post-processing after Draw is not required, steps 3 and 4 are unnecessary.
+
+
+4. Register and Deregister the PostProcessor
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| Configure the DrawChain created in the previous step with the created contract.
+| Specify the ID of the target DrawChain and the contract address of the DrawChainPostProcessor to be configured.
+| The usage of data can be freely defined within the implementation contract.
+
+Function to register the DrawChainPostProcessor(Drawchain.sol)::
+
+        @param drawChainId DrawChain ID
+        @param _addr Address of the PostProcessor  
+        @param data 
+        function attachPostProcessor(uint256 drawChainId,address _addr,uint256 data)
+
+Function to deregister the DrawChainPostProcessor(Drawchain.sol)::
+
+        @param drawChainId DrawChain ID
+        @param _addr Address of the PostProcessor  
+        @param data 
+        function detachPostProcessor(uint256 drawChainId,address _addr,uint256 data)
 
 --------------------------------------------------------------------------------------------------------------------------------
 
@@ -174,6 +214,12 @@ Returning the Draw History for Each PERSONA Owner (Batch Version) (Drawchain.sol
         @return Array of draw histories
         function drawHistoryByPersonaOwner(address personaOwner, uint256 fromIdx, uint256 count) public view returns (History[] memory)
 
+Returns PostProcessor information set for each DrawChain(Drawchain.sol)::
+
+        @param drawChainId DrawChain ID
+        @return PostProcessorInfo
+        function listPostProcessor(uint256 drawChainId) public view override returns(PostProcessorInfo[] memory)
+ 
 --------------------------------------------------------------------------------------------------------------------------------
 
 Executing DrawChain
@@ -308,3 +354,18 @@ newPreset::
         @param personas Array of PERSONA IDs to be registered
         @return numPresets Registration number
         function newPreset(uint256[] calldata personas) public returns (uint256)
+
+
+Implemented IDrawChainPostProcessor
+============================================
+
+| The currently available contracts that implement the IDrawChainPostProcessor interface are as follows.
+| To enable it, you need to attach it to DrawChain.
+
+A contract that transfers the specified PERSONA after draw to the specified address
+============================================================================================
+
+| (PersonaCollector.sol)
+| Set the forwarding destination address in data when attaching.
+| Transfer the personaId argument at draw to the address specified above.
+| It is necessary to approve PERSONA to the DrawChain contract before executing draw.

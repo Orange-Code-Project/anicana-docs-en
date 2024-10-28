@@ -7,6 +7,12 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "28.", "2024/10/28", "1.5.3", "| Ark.one Environment Information
+    | Production Environment Information
+    | 　⇒add IDrawChainPostProcessor.sol
+    | Implementation of DrawChain
+    | 　⇒Update of overview diagram.Added PostProcessor description.
+    | 　"
     "27.", "2024/06/26", "1.5.2", "| LEVICA API (Production)
     | LEVICA API (Ark.one)
     | ⇒ Update of the release contents
