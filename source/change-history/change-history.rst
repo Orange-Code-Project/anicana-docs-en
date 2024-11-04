@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "29.", "2024/11/04", "1.5.4", "| Ark.one environment information 
+    | ⇒ Updated DrawChain abi, added PersonaCollector address 
+    | "
     "28.", "2024/10/28", "1.5.3", "| Ark.one Environment Information
     | Production Environment Information
     | 　⇒add IDrawChainPostProcessor.sol
