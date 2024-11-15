@@ -355,6 +355,34 @@ newPreset::
         @return numPresets Registration number
         function newPreset(uint256[] calldata personas) public returns (uint256)
 
+Contracts that restrict the range of draw()-able Persona IDs.
+====================================================================================================================================
+
+| (DrawPersonaIdRangeLimiter.sol)
+| newPreset to create a new preset.
+| addRangeToPreset to add a new range to the specified preset.
+| Delete the specified preset with resetPreset.
+| If the specified Preset contains the target PERSONA, it is drawable.
+
+newPreset::
+
+        @notice Creates a new preset and returns its ID.
+        @return ID of the new preset created
+        function newPreset() public returns (uint256)
+
+addRangeToPreset::
+
+        @notice Add a new range to the specified preset
+        @param id Preset ID to which the range is added
+        @param min Min Persona ID of the range
+        @param max max max Persona ID of the range
+        function addRangeToPreset(uint256 id, uint256 min, uint256 max) public
+
+resetPreset::
+
+        @notice Resets the range associated with the specified preset ID
+        @param id Preset ID to reset
+        function resetPreset(uint256 id) public
 
 Implemented IDrawChainPostProcessor
 ============================================
