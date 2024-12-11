@@ -7,7 +7,10 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
-    "30.", "2024/12/15", "1.5.5", "| Ark.one environment Information
+    "31.", "2024/12/11", "1.5.6", "| Production Environment Information
+    | 　⇒PersonaCollector address and abi add.
+    | 　"
+    "30.", "2024/11/15", "1.5.5", "| Ark.one environment Information
     | roduction Environment Information
     | ⇒ DrawPersonaIdRangeLimiter address and abi add.
     | Implementation of DrawChain
