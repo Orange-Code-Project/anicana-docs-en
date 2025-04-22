@@ -7,6 +7,9 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "32.", "2025/04/22", "1.5.7", "| Production Environment Information, Ark.one environment Information
+    | 　⇒Organize various addresses and abi information.
+    | 　"
     "31.", "2024/12/11", "1.5.6", "| Production Environment Information
     | 　⇒PersonaCollector address and abi add.
     | 　"
