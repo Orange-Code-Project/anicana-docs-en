@@ -7,6 +7,11 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "33.", "2025/05/07", "1.6.0", "| ARCANA-Auction
+    | 　Automated Bidder Service
+    | 　system_vendor_budget_manager
+    | 　⇒Create new page
+    | 　"
     "32.", "2025/04/22", "1.5.7", "| Production Environment Information, Ark.one environment Information
     | 　⇒Organize various addresses and abi information.
     | 　"
