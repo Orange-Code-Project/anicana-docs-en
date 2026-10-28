@@ -7,6 +7,7 @@ Update History
     :align: center
 
     "No", "Date of Update", "Version", "Update Details"
+    "34.", "2026/10/28", "1.6.1", "LEVICA Payment: Updated the staging payment provider to GMO Payment Gateway and replaced the test card numbers"
     "33.", "2025/05/07", "1.6.0", "| ARCANA-Auction
     | 　Automated Bidder Service
     | 　system_vendor_budget_manager

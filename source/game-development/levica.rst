@@ -297,16 +297,17 @@ Listed below are the main APIs used to implement LEVICA Payment.
 
 Testing in the Staging Environment
 =======================================
-In the staging environment, you can perform tests by charging the balance using test card numbers. The payment system uses Stripe, so you can use the following card numbers:
+In the staging environment, you can test balance top-ups using test card numbers. The payment system uses GMO Payment Gateway. The following representative test card numbers for each brand are provided for successful EMV 3-D Secure authentication.
 
 .. csv-table::
     :header-rows: 1
     :align: center
 
-    "Card Company", "Card Number", "Expiration Date", "Security Code", "Other Form Fields"
-    "Visa", "4242 4242 4242 4242", "Valid future date", "Any 3-digit security code", "Any value"
-    "Visa (Debit)", "4000 0566 5566 5556", "Valid future date", "Any 3-digit security code", "Any value"
-    "Mastercard", "5555 5555 5555 4444", "Valid future date", "Any 3-digit security code", "Any value"
-    "Mastercard (Debit)", "5200 8282 8282 8210", "Valid future date", "Any 3-digit security code", "Any value"
-    "Mastercard (Prepaid)", "5105 1051 0510 5100", "Valid future date", "Any 3-digit security code", "Any value"
-    "American Express", "3782 822463 10005", "Valid future date", "Any 4-digit security code", "Any value"
+    "Card Brand", "Card Number", "Expiration Date", "Security Code", "Cardholder Name"
+    "Visa", "4100000000000100", "Valid future month and year", "Any 3-digit number", "Any name"
+    "Mastercard", "5100000000000107", "Valid future month and year", "Any 3-digit number", "Any name"
+    "JCB", "3528000000000106", "Valid future month and year", "Any 3-digit number", "Any name"
+    "Diners Club", "36000000000008", "Valid future month and year", "Any 3-digit number", "Any name"
+    "American Express", "340000000000108", "Valid future month and year", "Any 4-digit number", "Any name"
+
+These numbers are for use in the test environment only. For additional test card numbers and authentication results, see the `GMO Payment Gateway test card guide (Japanese) <https://mp-faq.gmo-pg.com/s/article/D00867>`_.
